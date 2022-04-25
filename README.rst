@@ -34,7 +34,7 @@ Quick start
 
 3. Include the filemanager URLconf in your project urls.py like this::
 
-    url(r'^your-url/', include('filemanager.urls', namespace='filemanager')),
+    re_path(r'^your-url/', include('filemanager.urls', namespace='filemanager')),
 
 
 4. Add ``MEDIA_URL`` and ``MEDIA_ROOT`` to the settings.
