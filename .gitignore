@@ -4,3 +4,8 @@
 
 /dist/
 /*.egg-info/
+.idea/django-filemanager.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
